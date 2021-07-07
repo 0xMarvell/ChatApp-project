@@ -8,6 +8,9 @@ django = "*"
 djangorestframework = "*"
 django-widget-tweaks = "*"
 python-memcached = "*"
+python-dotenv = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
