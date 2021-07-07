@@ -10,7 +10,7 @@ const userDiv = (senderId, receiverId, name, online) =>
                     <span class="material-icons col s2">account_circle</span>
                     <div class="col s10">
                     <span class="title" style="font-weight: bolder">${name}</span>
-                    // <span style="color: ${online ? 'green' : 'red'}; float: right">${online ? 'online' : 'offline'}</span>
+                    
                     </div>
                 </a>`)
 
