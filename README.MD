@@ -8,15 +8,15 @@
 
 Commands:
 ----CREATE VIRTUAL ENVIRONMENT----
-    pip3 install pipenv (Linux/Mac)  OR pip install pipenv (Windows)
-    pipenv shell (For both Windows and Linux/Mac)
+1. pip3 install pipenv (Linux/Mac)  OR pip install pipenv (Windows)
+2. pipenv shell (For both Windows and Linux/Mac)
 
 ----INSTALL NECESSARY PACKAGES----
-    pipenv install 
+1. pipenv install 
 
 ----RUN SERVER TO VIEW PROJECT----
-    python manage.py runserver
-    Create an account and chat away!
+1. python manage.py runserver
+2. Create an account and chat away!
 
 
 
