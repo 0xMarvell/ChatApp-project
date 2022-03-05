@@ -1,25 +1,39 @@
-# DRF Chat App project
+# Django REST Framework Chat App project
+Chat Application built using Django REST Framework
 
-## Instructions
+## Project Setup
+ - Clone Project or download as zip file.
+ ```bash
+ git clone https://github.com/Marvellous-Chimaraoke/ChatApp-project.git
+ ```
+ - Create virtual environment.
+ ```bash
+ pip3 install pipenv
+ pipenv shell
+ ```
+- Activate virtual environment (MacOS/Linux).
+```bash
+source env/bin/activate
+``` 
+- Activate virtual environment (Windows).
+```bash
+env/scripts/activate.bat
+```   
+ - Install requirements.
+ ```bash
+ pipenv install
+ ```
+ - Run migrations to create database tables.
+ ```bash
+ python manage.py makemigrations
+ python manage.py migrate
+ ```
+ - Run Project Server.
+ ```bash
+ python manage.py runserver
+ ```
 
-1. Download as zip file and Extract in a folder OR
-2. Clone repo
-3. Open with visual studio code, Atom or any other code editor
-
-Commands:
-----CREATE VIRTUAL ENVIRONMENT----
-1. pip3 install pipenv (Linux/Mac)  OR pip install pipenv (Windows)
-2. pipenv shell (For both Windows and Linux/Mac)
-
-----INSTALL NECESSARY PACKAGES----
-1. pipenv install 
-
-----RUN SERVER TO VIEW PROJECT----
-1. python manage.py runserver
-2. Create an account and chat away!
-
-
-
-# Admin login
-1. http://127.0.0.1:8000/admin
-2. username: admin / password: 1234
+ ## Admin login
+ - ```http://127.0.0.1:8000/admin```
+    - Username: admin
+    - Password: 1234
