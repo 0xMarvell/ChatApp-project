@@ -6,19 +6,11 @@ Chat Application built using Django REST Framework
  ```bash
  git clone https://github.com/Marvellous-Chimaraoke/ChatApp-project.git
  ```
- - Create virtual environment.
+ - Create and activate virtual environment.
  ```bash
  pip3 install pipenv
  pipenv shell
- ```
-- Activate virtual environment (MacOS/Linux).
-```bash
-source env/bin/activate
-``` 
-- Activate virtual environment (Windows).
-```bash
-env/scripts/activate.bat
-```   
+ ```  
  - Install requirements.
  ```bash
  pipenv install
